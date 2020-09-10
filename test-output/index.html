@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Blaze_Demo_Test_automation_suite">
+              <span class="suite-name border-passed">Blaze Demo Test automation suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Blaze_Demo_Test_automation_suite">
+                    <span>D:\Selenium\blazedemoassignment\src\testresources\testrunners\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Blaze_Demo_Test_automation_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Blaze_Demo_Test_automation_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Blaze_Demo_Test_automation_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Blaze_Demo_Test_automation_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Blaze_Demo_Test_automation_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Blaze_Demo_Test_automation_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Blaze_Demo_Test_automation_suite" class="hide-methods passed suite-Blaze_Demo_Test_automation_suite"> (hide)</a> <!-- hide-methods passed suite-Blaze_Demo_Test_automation_suite -->
+                      <a href="#" panel-name="suite-Blaze_Demo_Test_automation_suite" class="show-methods passed suite-Blaze_Demo_Test_automation_suite"> (show)</a> <!-- show-methods passed suite-Blaze_Demo_Test_automation_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Blaze_Demo_Test_automation_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Blaze_Demo_Test_automation_suite" title="com.qa.blazedemo.test.FlightPageTest" hash-for-method="verifyBookingConfirmationTest">verifyBookingConfirmationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Blaze_Demo_Test_automation_suite" title="com.qa.blazedemo.test.FlightPageTest" hash-for-method="verifyBookingIdTest">verifyBookingIdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Blaze_Demo_Test_automation_suite" title="com.qa.blazedemo.test.HomePageTest" hash-for-method="verifyFindFlightsTest">verifyFindFlightsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Blaze_Demo_Test_automation_suite" title="com.qa.blazedemo.test.HomePageTest" hash-for-method="verifyHomePageTitleTest">verifyHomePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Blaze_Demo_Test_automation_suite" title="com.qa.blazedemo.test.FlightPageTest" hash-for-method="verifyPageTitleTest">verifyPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Blaze_Demo_Test_automation_suite" title="com.qa.blazedemo.test.HomePageTest" hash-for-method="verifyPageTitleTest">verifyPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Blaze_Demo_Test_automation_suite" title="com.qa.blazedemo.test.FlightPageTest" hash-for-method="verifySelectFlightTest">verifySelectFlightTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Blaze_Demo_Test_automation_suite" title="com.qa.blazedemo.test.FlightPageTest" hash-for-method="verifyflightBookingHeaderTextTest">verifyflightBookingHeaderTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Blaze_Demo_Test_automation_suite" title="com.qa.blazedemo.test.FlightPageTest" hash-for-method="verifyflightBookingTest(Steve, Vastern Road, London, UK, RG14SW, amex, 123456.0, 10.0, 2020.0, Steve R)">verifyflightBookingTest(Steve, Vastern Road, London, UK, RG14SW, amex, 123456.0, 10.0, 2020.0, Steve R)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Blaze_Demo_Test_automation_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Blaze_Demo_Test_automation_suite" class="panel Blaze_Demo_Test_automation_suite">
+          <div class="suite-Blaze_Demo_Test_automation_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.blazedemo.test.FlightPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBookingConfirmationTest">
+                  </a> <!-- verifyBookingConfirmationTest -->
+                  <span class="method-name">verifyBookingConfirmationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBookingIdTest">
+                  </a> <!-- verifyBookingIdTest -->
+                  <span class="method-name">verifyBookingIdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitleTest">
+                  </a> <!-- verifyPageTitleTest -->
+                  <span class="method-name">verifyPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySelectFlightTest">
+                  </a> <!-- verifySelectFlightTest -->
+                  <span class="method-name">verifySelectFlightTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyflightBookingHeaderTextTest">
+                  </a> <!-- verifyflightBookingHeaderTextTest -->
+                  <span class="method-name">verifyflightBookingHeaderTextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyflightBookingTest(Steve, Vastern Road, London, UK, RG14SW, amex, 123456.0, 10.0, 2020.0, Steve R)">
+                  </a> <!-- verifyflightBookingTest(Steve, Vastern Road, London, UK, RG14SW, amex, 123456.0, 10.0, 2020.0, Steve R) -->
+                  <span class="method-name">verifyflightBookingTest</span>
+                  <span class="parameters">(Steve, Vastern Road, London, UK, RG14SW, amex, 123456.0, 10.0, 2020.0, Steve R)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Blaze_Demo_Test_automation_suite-class-passed -->
+          <div class="suite-Blaze_Demo_Test_automation_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.blazedemo.test.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFindFlightsTest">
+                  </a> <!-- verifyFindFlightsTest -->
+                  <span class="method-name">verifyFindFlightsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitleTest">
+                  </a> <!-- verifyHomePageTitleTest -->
+                  <span class="method-name">verifyHomePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitleTest">
+                  </a> <!-- verifyPageTitleTest -->
+                  <span class="method-name">verifyPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Blaze_Demo_Test_automation_suite-class-passed -->
+        </div> <!-- panel Blaze_Demo_Test_automation_suite -->
+        <div panel-name="test-xml-Blaze_Demo_Test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Selenium\blazedemoassignment\src\testresources\testrunners\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Blaze Demo Test automation suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.blazedemo.test.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.blazedemo.test.FlightPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Blaze Demo Test automation suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Blaze_Demo_Test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Blaze Demo Test automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Blaze_Demo_Test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Blaze Demo Test automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Blaze_Demo_Test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Blaze Demo Test automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Blaze_Demo_Test_automation_suite');
+function tableData_Blaze_Demo_Test_automation_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifySelectFlightTest')
+data.setCell(0, 2, 'com.qa.blazedemo.test.FlightPageTest')
+data.setCell(0, 3, 5241);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyFindFlightsTest')
+data.setCell(1, 2, 'com.qa.blazedemo.test.HomePageTest')
+data.setCell(1, 3, 1799);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyflightBookingTest')
+data.setCell(2, 2, 'com.qa.blazedemo.test.FlightPageTest')
+data.setCell(2, 3, 1788);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyPageTitleTest')
+data.setCell(3, 2, 'com.qa.blazedemo.test.FlightPageTest')
+data.setCell(3, 3, 76);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyflightBookingHeaderTextTest')
+data.setCell(4, 2, 'com.qa.blazedemo.test.FlightPageTest')
+data.setCell(4, 3, 42);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyHomePageTitleTest')
+data.setCell(5, 2, 'com.qa.blazedemo.test.HomePageTest')
+data.setCell(5, 3, 38);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyBookingConfirmationTest')
+data.setCell(6, 2, 'com.qa.blazedemo.test.FlightPageTest')
+data.setCell(6, 3, 37);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyPageTitleTest')
+data.setCell(7, 2, 'com.qa.blazedemo.test.HomePageTest')
+data.setCell(7, 3, 24);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyBookingIdTest')
+data.setCell(8, 2, 'com.qa.blazedemo.test.FlightPageTest')
+data.setCell(8, 3, 19);
+window.suiteTableData['Blaze_Demo_Test_automation_suite']= { tableData: data, tableDiv: 'times-div-Blaze_Demo_Test_automation_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <div id="times-div-Blaze_Demo_Test_automation_suite">
+              </div> <!-- times-div-Blaze_Demo_Test_automation_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Blaze_Demo_Test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Blaze Demo Test automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Blaze_Demo_Test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Blaze_Demo_Test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.blazedemo.test.FlightPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.blazedemo.test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10407 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitleTest</span>
+                <span class="method-start">19552 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.blazedemo.test.FlightPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitleTest</span>
+                <span class="method-start">19582 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.blazedemo.test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageTitleTest</span>
+                <span class="method-start">19660 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.blazedemo.test.FlightPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySelectFlightTest</span>
+                <span class="method-start">19700 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.blazedemo.test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyFindFlightsTest</span>
+                <span class="method-start">24947 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.blazedemo.test.FlightPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyflightBookingHeaderTextTest</span>
+                <span class="method-start">26750 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyflightBookingTest(Steve, Vastern Road, London, UK, RG14SW, amex, 123456.0, 10.0, 2020.0, Steve R)</span>
+                <span class="method-start">27345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBookingConfirmationTest</span>
+                <span class="method-start">29135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBookingIdTest</span>
+                <span class="method-start">29174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29195 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.blazedemo.test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30058 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
